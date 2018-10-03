@@ -1,0 +1,104 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.15em;
+  text-align: center;
+  width: 83.5%;
+  margin: auto;
+}
+
+a {
+  color: white;
+}
+
+/*-------HEADER STYLES-------*/
+header {
+  background-color: #92E0E5;
+  height: 30px;
+  padding: 1% 2% 1% 2%;
+  text-align: left;
+}
+
+header a {
+  margin: 0 .5em 0 .5em;
+}
+
+.nav-left {
+  float: left;
+}
+
+.nav-right {
+  float: right;
+  margin: auto 0 auto 0;
+}
+
+.dog-logo {
+  height: 1.8em;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+/*-------MAIN SECTION STYLES-------*/
+/*"A Site About Some Dogs"*/
+h1 {
+  font-size: 1.6em;
+}
+
+/*Background Park Picture*/
+.main {
+  width: 100%;
+  background: url("images/park.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+/*Dog Portraits*/
+.circle {
+  border-radius: 50%;
+}
+
+/*Big Dog Portrait*/
+.img-lg {
+  width: 24%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: .5em;
+  border: 4px solid #3F8DA7;
+}
+
+button {
+  border: 4px solid #3F8DA7;
+  color: #3F8DA7;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  padding: .3em .4em .3em .4em;
+}
+
+/*-------COLUMN SECTION STYLES-------*/
+.columns {
+  column-count: 3;
+  padding: 4% 1.8% 3% 1.8%;
+}
+
+/*Column Dog Portraits*/
+.img-md {
+  width: 50%;
+  margin-top: 1em;
+  border: 2px solid #3F8DA7;
+}
+
+/*-------FOOTER STYLES-------*/
+footer {
+  background-color: #3F8DA7;
+  color: white;
+  font-size: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.social-media {
+  width: 2.5em;
+  margin: 1.7em 1.3em 1.7em 1.3em;
+}
