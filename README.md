@@ -1,11 +1,8 @@
 # Dog Party
-
 ![screenshot of my dog party](screenshot.png)
-
 
 ## Synopsis
 The goal of this project was to replicate the structure and styling of this image of a website for dogs.
-
 ![screenshot of original dog party](dog-party.png)
 
 ## Build With
