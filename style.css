@@ -9,6 +9,7 @@ body {
 /*HEADER STYLES*/
 header {
   background-color: #92E0E5;
+  height: 50px;
   text-align: left;
 }
 
@@ -20,13 +21,13 @@ header {
 
 .dog-logo {
   height: 35px;
-  margin: .5% 0 .25% 2%;
+  margin: 8px 0 7px 2%;
 }
 
-.nav-right {
+.navbar-right {
   float: right;
-  margin: 1.2% 0 0 0;
-  width: 17.5%;
+  margin: 14px 2% 0 0;
+  width: 200px;
 }
 
 a {
@@ -34,7 +35,7 @@ a {
 }
 
 header a {
-  margin-right: 9%;
+  margin-left: 9%;
   text-decoration: none;
 }
 
@@ -42,8 +43,7 @@ header a {
 .main-section {
   background: url("images/park.jpg") no-repeat;
   background-size: cover;
-  padding-bottom: 3%;
-  padding-top: 2%;
+  padding: 2% 0 4%;
   width: 100%;
 }
 
@@ -63,28 +63,52 @@ h1 {
   width: 24%;
 }
 
+@media only screen and (max-width: 768px) {
+  .big-dog {
+    width: 55%;
+  }
+}
+
 button {
   border: 4px solid #3F8DA7;
   color: #3F8DA7;
   font-family: 'Raleway', sans-serif;
   font-size: 1.1rem;
-  padding: .3% .6%
+  padding: .3% .6%;
+  background-color: #FFFFFF;
 }
 
 /*COLUMN SECTION STYLES*/
 .column-section {
-  column-count: 3;
-  padding: 4% 1.8% 3% 1.8%;
+  padding: 2.5% 1%;
+}
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  box-shadow: border-box;
+  display: inline-block;
+  padding: 0 1%;
+  vertical-align: top;
+  width: 30.5%;
+}
+
+@media only screen and (max-width: 768px) {
+  li {
+    display: block;
+    width: 100%;
+  }
 }
 
 .medium-dog {
   border: 2px solid #3F8DA7;
-  margin: 5% auto;
-  width: 50%;
-}
-
-.column-section p {
-  font-size: 1.15rem;
+  margin: 2% auto;
+  width: 55%;
 }
 
 .column-section button {
