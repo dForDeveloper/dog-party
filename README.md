@@ -1,6 +1,4 @@
 # Dog Party
-
-## Synopsis
 The goal of this project was to recreate a static comp without using`flex-box` or `grid`.
 
 Original image:
